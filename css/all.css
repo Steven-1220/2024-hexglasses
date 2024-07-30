@@ -433,7 +433,6 @@ a {
 .co-branding {
   padding-top: 80px;
   padding-bottom: 80px;
-  height: 608px;
   background-image: url(../images/index-bg.png);
   background-size: cover;
   background-position: 0% 0%;
@@ -453,7 +452,6 @@ a {
 @media (max-width: 992px) {
   .co-branding {
     background-image: url('../images/index-bg-md.png');
-    height: 960px;
   }
 
   .co-branding li:first-child .card {
@@ -464,7 +462,6 @@ a {
 @media (max-width: 576px) {
   .co-branding {
     background-image: url('../images/index-bg-sm.png');
-    height: 820px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -560,6 +557,7 @@ a {
 .form-group textarea {
   padding: 6px 12px;
   border: 1px solid #000000;
+  background: transparent;
 }
 
 .form-check {
@@ -577,6 +575,7 @@ a {
   cursor: pointer;
   padding-top: 16px;
   padding-bottom: 16px;
+  border: none;
 }
 
 .btn-contact:hover {
